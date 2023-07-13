@@ -1,0 +1,10 @@
+.right-side-main {
+  display: flex;
+ justify-content: end;
+
+}
+
+.background-picture {
+  height: 910px;
+}
+

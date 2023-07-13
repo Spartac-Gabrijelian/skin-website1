@@ -1,0 +1,20 @@
+body {
+  width: fit-content;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  height: 1000px;
+  flex-direction: column;
+  background-color: rgba(230, 248, 232, 255);
+  border-bottom: solid 40px rgba(68,75,68,255);
+  border-top: solid 40px rgba(68,75,68,255);
+  border-left: solid 25px rgba(68,75,68,255);
+  border-right: solid 25px rgba(68,75,68,255);
+}
+
+.main-left-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}

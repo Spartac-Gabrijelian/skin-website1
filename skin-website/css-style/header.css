@@ -1,0 +1,76 @@
+
+.header-workhu {
+  display: flex;
+  flex-direction: row;
+  z-index: 20;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.left-side-header {
+  font-family: 'Roboto', sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.middle-header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 10px;
+  background-color: rgba(255, 255, 255, 255);
+  border: solid 2px rgba(172, 180, 172, 255);
+  padding: 6px 8px;
+  border-radius: 30px;
+}
+
+.header-button {
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 20px;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.header-button:focus {
+  background-color: rgba(84, 131, 86, 255);
+  color: white;
+  font-weight: bold;
+}
+
+.right-side-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.space-header-middle-left-right {
+  max-width: 80px;
+  min-width: 10px;
+}
+
+.space-header-left-right {
+  min-width: 20px;
+}
+
+.header-icon {
+  height: 18px;
+  width: 18px;
+  cursor: pointer;
+  padding: 8px;
+  object-fit: contain;
+}
+
+.header-icon:hover {
+  height: 21px;
+  width: 21px;
+}
+
+.header-icon:active {
+  background-color: rgba(20, 191, 40, 0.2);
+  border-radius: 50%;
+}
